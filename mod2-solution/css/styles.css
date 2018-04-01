@@ -2,13 +2,19 @@
 	box-sizing: border-box;
 }
 
+.row{
+	width: 100%;
+	margin: 5px;
+}
+
 h1{
 	text-align: center;
 }
 
 body {
-	background-color: #f4f4f4; /* gray */ 
+	background-color: #f4f4f4; /* gray */
 }
+
 
 p{
 	margin: 10px;
@@ -19,11 +25,6 @@ p{
 	padding: 10px;
 	padding-top: 35px;
 	overflow: auto;
-}
-
-.row{
-	width: 100%;
-	margin: 5px;
 }
 
 #poultry{
@@ -64,12 +65,13 @@ p{
 	text-align: center;
 	font-weight: bold;
 }
+
 /* Desktop */
 @media (min-width: 992px) {
 	.col-lg-4{
 		float: left;
 		position: relative;
-		width: 33.33%;
+		width: 33.3333%;
 	}
 }
 
@@ -79,6 +81,11 @@ p{
 		float: left;
 		position: relative;
 		width: 50%;
+	}
+	.col-md-12{
+		float: left;
+		position: relative;
+		width: 100%;
 	}
 }
 
